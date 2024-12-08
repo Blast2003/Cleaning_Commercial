@@ -1,0 +1,34 @@
+.services {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+}
+.service-header{
+    text-align: center;
+}
+.service-header h4{
+    margin-right: 90px;
+}
+.service-header p{
+    margin-left: 50px;
+}
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.service-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    justify-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.service-img{
+    height: 100px;
+    width: 100px;
+}

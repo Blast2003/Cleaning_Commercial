@@ -1,0 +1,56 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 90%;
+    margin: 20px auto; /* Center align and add margin */
+    padding: 20px;
+}
+
+.member-list-header {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.our-staff {
+    color: gray;
+}
+
+.meet-staff {
+    color: darkblue;
+}
+
+.cleaning-staff {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.staff-members {
+    display: flex;
+    justify-content: center; /* Center align the blocks */
+    flex-wrap: wrap; /* Wrap the blocks to the next line if needed */
+    gap: 20px; /* Add space between blocks */
+}
+
+.staff-member {
+    text-align: center;
+    background-color: rgba(0, 122, 255, 0.3); /* 007AFF with 30% opacity */
+    border-radius: 10px;
+    width: 250px; /* Adjust width for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.member-description {
+    background-color: rgb(220, 220, 240);
+    text-align: center;
+    padding-top: 20px;
+    height: 100px;
+    border-radius: 8px;
+    margin-top: 10px; /* Add margin top for spacing */
+}
+
+.member-image {
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    margin-bottom: 15px; /* Add margin bottom for spacing */
+}
